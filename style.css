@@ -1,48 +1,56 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f4f6fb;
-  color: #222;
-  line-height: 1.6;
-}
-
-header {
-  background: #1f3a68;
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-header h1 {
-  margin: 0 0 8px;
-  font-size: 2.4rem;
+  background: #ffffff;
+  color: #3a1a22;
+  line-height: 1.5;
 }
 
 main {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 0 20px;
-}
-
-section {
-  background: white;
-  padding: 20px 25px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 h2 {
-  color: #1f3a68;
-  margin-top: 0;
+  color: #7b1e3a;
+  text-align: center;
+  margin: 28px 0 10px;
 }
 
 a {
-  color: #2a6fdb;
+  color: #7b1e3a;
+}
+
+ul {
+  color: #7b1e3a;
+}
+
+.datos {
+  overflow: auto;
+}
+
+.foto {
+  float: right;
+  width: 170px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 0 10px 20px;
+  box-shadow: 0 2px 8px rgba(123, 30, 58, 0.4);
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  color: #666;
+  background: #7b1e3a;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .foto {
+    float: none;
+    display: block;
+    margin: 0 auto 15px;
+  }
 }
