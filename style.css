@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #ffffff;
-  color: #3a1a22;
-  line-height: 1.5;
+  background: #f6e4e9;
+  color: #5e1224;
+  line-height: 1.6;
 }
 
 main {
@@ -12,18 +12,26 @@ main {
   padding: 20px;
 }
 
+section {
+  margin-bottom: 10px;
+}
+
+h1,
 h2 {
   color: #7b1e3a;
   text-align: center;
   margin: 28px 0 10px;
 }
 
-a {
-  color: #7b1e3a;
+p,
+li,
+strong {
+  color: #5e1224;
 }
 
-ul {
+a {
   color: #7b1e3a;
+  font-weight: bold;
 }
 
 .datos {
@@ -45,6 +53,11 @@ footer {
   padding: 20px;
   background: #7b1e3a;
   color: white;
+}
+
+footer p {
+  color: white;
+  margin: 0;
 }
 
 @media (max-width: 600px) {
